@@ -1,0 +1,839 @@
+.input-search {
+    background-color: transparent;
+    font-size: .875rem;
+    width: 100%; 
+    max-width: 400px; 
+    height: 50px;
+    border-radius: 0;
+    border-bottom: 2px solid !important;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    flex-grow: 1;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 100;
+}
+
+.button-search {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    height: calc(100% - 2px);
+    width: 55px;
+    text-align: center;
+    right: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.suporte {
+    display: bottom;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 100;
+    font-size: 27px;
+}
+
+.mostrar {
+    display: none;
+    position: absolute; 
+    background-color: #fff; 
+    padding: 5px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5%;
+    font-size: 20px;
+    text-align: center;
+}
+    
+.whatsapp a {
+    color: black;
+    text-decoration: none;
+}
+
+.whatsapp:hover a {
+    text-decoration: underline;
+    opacity: 0.6;
+}
+
+.suporte:hover .mostrar {
+    display: block;
+}
+.osuporte {
+    color: black;
+    text-decoration: none;
+}
+.osuporte:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+.arrumar a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.arrumar a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.login img {
+    margin-right: 8px;
+}
+
+.login a {
+    font-size: 27px;
+}
+
+.cadastro {
+    display: none;
+    position: absolute; 
+    background-color: #fff; 
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5%;
+    font-size: 27px;
+    text-align: center;
+    top: 100%;
+}
+    
+.login:hover .cadastro {
+    display: block;
+}
+
+.entrar {
+    background-color: #535353;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 5px;
+
+}
+
+.entrar a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.entrar:hover {
+    opacity: 0.6;
+}
+
+.cadastrar a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.cadastrar:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+.logo {
+    background-color: #535353;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logohover:hover {
+    opacity: 0.6;
+}
+
+.descricao h1 {
+    font-size: 45px;
+}
+
+.descricao p {
+    font-size: 35px;
+}
+
+.destaque1 h1 {
+    font-size: 45px;
+}
+
+.lancamentos h1 {
+    font-size: 45px;
+}
+
+.vendidos h1 {
+    font-size: 45px;
+}
+
+.patrocinado h1 {
+    font-size: 45px;
+}
+
+.destaque {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.destaque img {
+    border-radius: 10%;
+}
+
+.destaque {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.destaque img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+.destaquehover {
+    display: none;
+}
+
+.destaque:hover .dhover {
+    display: none;
+}
+
+.destaque:hover .destaquehover {
+    display: block;
+}
+
+.destaque:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#tage a {
+    margin-left: 27%;
+}
+
+#tagh a {
+    background-color: #535353;
+    margin-left: 27%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#tagh:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*lancamentos*/
+
+.hublot1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.hublot1 img {
+    border-radius: 10%;
+}
+
+.hublot1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.hublot1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.hublot1 .hublothover {
+    display: none;
+}
+
+.hublot1:hover .hublot {
+    display: none;
+}
+
+.hublot1:hover .hublothover {
+    display: block;
+}
+
+.hublot1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#hube a {
+    margin-left: 34%;
+}
+
+#hubh a {
+    background-color: #535353;
+    margin-left: 30%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#hubh:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*piguet*/
+
+.piguet1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.piguet1 img {
+    border-radius: 10%;
+}
+
+.piguet1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.piguet1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.piguet1 .piguethover {
+    display: none;
+}
+
+.piguet1:hover .piguet {
+    display: none;
+}
+
+.piguet1:hover .piguethover {
+    display: block;
+}
+
+.piguet1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#pige a {
+    margin-left: 17%;
+}
+
+#pigh a {
+    background-color: #535353;
+    margin-left: 30%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#pigh:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*seiko*/
+
+.seiko1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.seiko1 img {
+    border-radius: 10%;
+}
+
+.seiko1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.seiko1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.seiko1 .seikohover {
+    display: none;
+}
+
+.seiko1:hover .seiko {
+    display: none;
+}
+
+.seiko1:hover .seikohover {
+    display: block;
+}
+
+.seiko1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#seie a {
+    margin-left: 24%;
+}
+
+#seih a {
+    background-color: #535353;
+    margin-left: 33%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#seih:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*nomos*/
+
+.nomos1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.nomos1 img {
+    border-radius: 10%;
+}
+
+.nomos1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.nomos1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.nomos1 .nomoshover {
+    display: none;
+}
+
+.nomos1:hover .nomos {
+    display: none;
+}
+
+.nomos1:hover .nomoshover {
+    display: block;
+}
+
+.nomos1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#nome a {
+    margin-left: 16%;
+}
+
+#nomh a {
+    background-color: #535353;
+    margin-left: 33%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#nomh:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*timex*/
+
+.timex1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.timex1 img {
+    border-radius: 10%;
+}
+
+.timex1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.timex1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.timex1 .timexhover {
+    display: none;
+}
+
+.timex1:hover .timex {
+    display: none;
+}
+
+.timex1:hover .timexhover {
+    display: block;
+}
+
+.timex1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#time a {
+    margin-left: 35%;
+}
+
+#timh a {
+    background-color: #535353;
+    margin-left: 33%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#timh:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*orient*/
+
+.orient1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.orient1 img {
+    border-radius: 10%;
+}
+
+.orient1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.orient1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.orient1 .orienthover {
+    display: none;
+}
+
+.orient1:hover .orient {
+    display: none;
+}
+
+.orient1:hover .orienthover {
+    display: block;
+}
+
+.orient1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#orie a {
+    margin-left: 19%;
+}
+
+#orih a {
+    background-color: #535353;
+    margin-left: 33%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#orih:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*jaeger*/
+
+.jaeger1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.jaeger1 img {
+    border-radius: 10%;
+}
+
+.jaeger1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.jaeger1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.jaeger1 .jaegerhover {
+    display: none;
+}
+
+.jaeger1:hover .jaeger {
+    display: none;
+}
+
+.jaeger1:hover .jaegerhover {
+    display: block;
+}
+
+.jaeger1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#jaee a {
+    margin-left: 16%;
+}
+
+#jaeh a {
+    background-color: #535353;
+    margin-left: 28%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#jaeh:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*patek*/
+
+.patek1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.patek1 img {
+    border-radius: 10%;
+}
+
+.patek1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.patek1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.patek1 .patekhover {
+    display: none;
+}
+
+.patek1:hover .patek {
+    display: none;
+}
+
+.patek1:hover .patekhover {
+    display: block;
+}
+
+.patek1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#pate a {
+    margin-left: 19%;
+}
+
+#path a {
+    background-color: #535353;
+    margin-left: 24%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#path:hover a {
+    color: white;
+    background-color: black;
+
+}
+
+/*omega*/
+
+.omega1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: auto;
+}
+
+.omega1 img {
+    border-radius: 10%;
+}
+
+.omega1 {
+    background-color: #f0f0f0; 
+    padding: 20px; 
+    display: inline-block; 
+    border: 2px solid #ccc; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10%;
+}
+
+.omega1 img {
+    display: block; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+.omega1 .omegahover {
+    display: none;
+}
+
+.omega1:hover .omega {
+    display: none;
+}
+
+.omega1:hover .omegahover {
+    display: block;
+}
+
+.omega1:hover {
+    zoom: 105%;
+    transition: 1s ease;
+    font-size:30px;
+}
+
+#omee a {
+    margin-left: 35%;
+}
+
+#omeh a {
+    background-color: #535353;
+    margin-left: 30%;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+#omeh:hover a {
+    color: white;
+    background-color: black;
+
+}
