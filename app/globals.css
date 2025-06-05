@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%; /* #0A0A0A - sant-dark (approx) */
+    --foreground: 0 0% 94.1%; /* #F0F0F0 - sant-light (approx) */
+
+    --card: 240 10% 10%; /* #1A1A1A - sant-card-bg (approx) or slightly lighter */
+    --card-foreground: 0 0% 94.1%; /* #F0F0F0 */
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 94.1%;
+
+    --primary: 0 0% 94.1%; /* sant-light for primary text elements */
+    --primary-foreground: 240 10% 3.9%; /* sant-dark for text on primary bg */
+
+    --secondary: 240 4.8% 95.9%; /* A lighter gray if needed */
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+
+    /* Gold Accent */
+    --accent: 43 74% 49%; /* #D4AF37 - sant-accent (approx HSL) */
+    --accent-foreground: 240 10% 3.9%; /* sant-dark for text on accent bg */
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 43 74% 59%; /* Lighter gold for ring/focus */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Same as :root for a dark-by-default theme */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 94.1%;
+    --card: 240 10% 10%;
+    --card-foreground: 0 0% 94.1%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 94.1%;
+    --primary: 0 0% 94.1%;
+    --primary-foreground: 240 10% 3.9%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 43 74% 49%;
+    --accent-foreground: 240 10% 3.9%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 43 74% 59%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1; /* Enable ligatures and contextual alternates */
+  }
+}
